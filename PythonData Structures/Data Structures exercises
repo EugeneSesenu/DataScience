@@ -1,0 +1,67 @@
+import math
+
+#Exercise1 
+def solve_quadratic(a,b,c):
+    x = int(b*b) - int(4*a*c)
+    sol1 = (-b - math.sqrt(x))/(2*a)
+    sol2 = (-b + math.sqrt(x))/(2*a)
+    print('({} {})'.format (sol1, sol2))
+    return solve_quadratic
+
+solve_quadratic(1, -10, 2)
+
+
+
+
+
+#Exercise 2 
+n = int(input())
+list1 = []
+for x in input().split():
+    list1.append(int(x))
+t = tuple(list1)
+print(hash(t))
+
+
+
+
+
+#Exercise 3 
+q = ([4, 8, 12, 16, 20, 24, 28][::2])
+h = ([3, 6, 9, 12, 15, 18, 21][::3])
+print(q)
+print(h)
+q.extend(h)
+print(q)
+
+
+
+
+
+#Exercise 4
+sampleList = [11, 45, 8, 23, 14, 12, 78, 45, 89]
+l = (sampleList[0:3])
+j = (sampleList[3:6])
+k = (sampleList[6:9])
+
+l.reverse()
+print(l)
+
+j.reverse()
+print(j)
+
+k.reverse()
+print(k)
+
+
+
+
+
+#Exercise 5
+rollNumber = [47, 64, 69, 37, 76, 83, 95, 97]
+sampleDict = {'Zach':47, 'Emma':69, 'Kelly':76, 'Jason':97}
+
+new_roll = rollNumber[:]
+if new_roll in sampleDict:
+    rollNumber.remove(sampleDict)
+
