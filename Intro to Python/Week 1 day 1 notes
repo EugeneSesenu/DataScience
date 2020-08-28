@@ -1,0 +1,30 @@
+#splitting the for loop into lower and upper
+
+for i in range(10):
+    if (i < midpoint):
+        lower.append(i)
+    else:
+        upper.append(i)
+        
+print("lower:", lower)
+print("upper:", upper)
+
+
+
+
+x = 4.5
+print(x.real, "+", x.imag, 'i')
+
+output ----> 4.5 + 0.0 i 
+
+
+* basic python argumnents and functions including adddition, subtraction, ,multiplication and division.
+* The print function prints out the argumentc
+* variables, X = 4 (x is assigned to 4) -----> Variables should be printed without quotes on tags
+* type determines the type of a variable, a string, integer or a function
+* is_integer() is a built in function that returns true or false for integer values
+* a // b	Floor division	Quotient of a and b, removing fractional parts
+* a / b	True division	Quotient of a and b
+* the bin function finds the binary characters of numbers
+* 1 in [1, 2, 3] ------> output: True
+* 1 not in [1, 2, 3] -------> output: False
