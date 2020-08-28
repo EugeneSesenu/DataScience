@@ -1,0 +1,85 @@
+* If a number in a bool is a 0 then it's argument is false 
+* If a number in a bool is empty, then it's argument is false
+* If a number in a bool is "none" then it's argument is false
+complex(1,2) 
+output---> (1+2j)
+
+s="abcdefg"
+s[1:4]
+
+L=[11,13,22,32]
+L[1:3]=[4]
+
+output------> [11, 4, 32]
+
+
+
+
+x = 50 
+y = 10 
+if (x**2 > 100 and y < 100):
+    print(x,y)
+                            
+output----> 50,10
+    
+* odd index --> [::3]
+* even index --> [::2]
+    
+    
+    
+    
+    
+                                                                  (Tuples)
+                                                                       thistuple = ("apple", "banana", "cherry").   * Note: tuples are not changeable but can be called out through the use of indices
+   {Dictionaries}                                                                                           
+ d={"key1":"value1", "key2":"value2"}
+print(d["key1"])
+print(d["key2"])
+    
+    (objects that do not change the contents of a dictionary)
+*  d.copy()
+* d.items()
+* d.keys()
+* d.values()
+* d.get(k[,x])
+    
+    (objects that do change the contents of a dictionary)
+* d.clear()
+* d.update(d1)
+* d.setdefault(k[,x])
+* d.pop(k[,x])
+* d.popitem()
+    
+    
+    
+    
+    (Classifying strings)
+s.isalnum() True if all characters are letters or digits
+s.isalpha() True if all characters are letters
+s.isdigit() True if all characters are digits
+s.islower() True if contains letters, and all are lowercase
+s.isupper() True if contains letters, and all are uppercase
+s.isspace() True if all characters are whitespace
+s.istitle() True if uppercase in the beginning of word, elsewhere lowercase
+    
+    
+    
+    
+    (changing strings) 
+s.lower() Change all letters to lowercase
+s.upper() Change all letters to uppercase
+s.capitalize() Change all letters to capitalcase
+s.title() Change to titlecase
+s.swapcase() Change all uppercase letters to lowercase, and vice versa
+    
+    
+    
+  
+    (More on changing strings) 
+s.strip(x) Removes leading and trailing whitespace by default, or characters found in string x
+s.lstrip(x) Same as strip but only leading characters are removed
+s.rstrip(x) Same as strip but only trailing characters are removed
+s.ljust(n) Left justifies string inside a field of length n
+s.rjust(n) Right justifies string inside a field of length n
+s.center(n) Centers string inside a field of length n
+    
