@@ -1,1 +1,35 @@
+A function ------->
+Myfunction():
+     print this is a function
+     
+   def fibonacci(N):           #the function to the left defines the fibonacci function
+    L = []
+    a, b = 0, 1
+    while len(L) < N:
+        a, b = b, a + b
+        L.append(a)
+    return L
+    
+    
+    *functions only return the instructions it has been given
+    
+    
+    *to call a function: 
+                   Myfunction()
+     
+     
 
+
+Flexible Arguments (aargs & Kwargs) 
+def catch_all(*args, **kwargs):
+    print("args =", args)
+    print("kwargs = ", kwargs)
+    
+    
+    Note: the args parameter takes in the parameter without the equal sign while kwargs takes in a parameter with the equal to sign
+    
+add = lambda x, y: x + y
+add(1, 2)
+The lambda function works as well as the normal function but is long and messy. Using it with a full work of code is barely interchangeable
+
+* the try & except error function is used to predict errors in the code if the errors cannot be found(use to specify an error)
