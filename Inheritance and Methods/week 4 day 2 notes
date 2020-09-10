@@ -1,0 +1,19 @@
+Classes definition starts with the class statement
+
+
+
+
+
+
+Class MyClass(Object):
+
+"This initializes an instance of type Classnmae
+def _init__(self, param1, param2):
+    self.b = param1 
+    c = param2
+    
+    
+    
+ def f(self, param1):
+      #some statements
+      a = 1 #This creates a class attribute
