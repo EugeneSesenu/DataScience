@@ -7,13 +7,35 @@ Classes definition starts with the class statement
 
 Class MyClass(Object):
 
-"This initializes an instance of type Classnmae
+"This initializes an instance of type ClassName”
 def _init__(self, param1, param2):
-    self.b = param1 
-    c = param2
+    self.b = param1         #creates an instance attribute
+    c = param2               #creates a local variable of the function
     
     
     
  def f(self, param1):
       #some statements
       a = 1 #This creates a class attribute
+  
+The method is the attribute within the class 
+The instance helps create the characteristic of the object 
+The parameter is used in methods in classes to give a method a characteristic
+The __init__ method is a special method that is used in classes 
+The first parameter self is used as the first parameter always in classes and methods as such 
+
+
+Class MyClass:
+    Variable = “blah”
+
+     def function(self):
+             print(“This is a message inside the class.”)
+
+Myobjectx = MyClass(objectx) 
+print(Myobjectx)
+
+
+The case of super()__init() which is used to call a parent function inside of a subclass of another function
+
+
+
